@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17785" started-at="2020-08-15T21:29:01Z" finished-at="2020-08-15T21:29:19Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.ZooplaRunner@14d3bc22]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="17785" started-at="2020-08-15T21:29:01Z" finished-at="2020-08-15T21:29:19Z">
+      <class name="com.runner.ZooplaRunner">
+        <test-method status="PASS" signature="setupExtentsReport()[pri:0, instance:com.runner.ZooplaRunner@14d3bc22]" name="setupExtentsReport" is-config="true" duration-ms="14" started-at="2020-08-15T21:29:01Z" finished-at="2020-08-15T21:29:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentsReport -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.runner.ZooplaRunner@14d3bc22]" name="setUpClass" is-config="true" duration-ms="147" started-at="2020-08-15T21:29:01Z" finished-at="2020-08-15T21:29:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.ZooplaRunner@14d3bc22]" name="runScenario" duration-ms="17528" started-at="2020-08-15T21:29:01Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-08-15T21:29:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["This is my end to end Testing"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Zoopla Project feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.ZooplaRunner@14d3bc22]" name="tearDownClass" is-config="true" duration-ms="30" started-at="2020-08-15T21:29:19Z" finished-at="2020-08-15T21:29:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runner.ZooplaRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
